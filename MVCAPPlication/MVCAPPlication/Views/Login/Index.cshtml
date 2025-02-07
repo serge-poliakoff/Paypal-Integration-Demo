@@ -1,0 +1,38 @@
+﻿@model IEnumerable<MVCAPPlication.Models.User>
+@using System.Security.Claims
+@{
+    ViewData["Title"] = "Index";
+    ViewData["Admin"] = User.Claims.FirstOrDefault(claim => claim.Type == ClaimTypes.Role)!.Value == "Admin";
+    ViewData["Self"] = User.Claims.FirstOrDefault(c => c.Type == ClaimTypes.Email)!.Value;
+}
+
+<h1>Users</h1>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Name)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Password)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Email)
+            </th>
+            <th>@Html.DisplayNameFor(model => model.Role)</th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+            @if((bool)ViewData["Admin"]! || item.Email == (string)ViewData["Self"]!)
+            {
+                <partial name="_TableAdminRow" model="item" />
+            }
+            else
+            {
+                <partial name="_TableUserRow" model="item" />
+            }
+        }
+    </tbody>
+</table>

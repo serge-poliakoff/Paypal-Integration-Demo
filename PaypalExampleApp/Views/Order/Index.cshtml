@@ -1,0 +1,40 @@
+﻿@model ICollection<PuteCommandModel>
+
+<div class="container">
+    <div class="table-responsive">
+    <table class="d-lg-table">
+        <tr>
+            <td>Name</td>
+            <td>Price for hour</td>
+            <td>Hours</td>
+        </tr>
+        @{
+            decimal total = 0;
+        }
+        @foreach (PuteCommandModel item in Model)
+        {
+            <tr>
+                <td>
+                    @item.Name
+                </td>
+                <td>
+                    @item.PriceHour $/hour
+                </td>
+                <td>
+                    @item.Hours
+                </td>
+            </tr>
+            total += item.PriceHour * item.Hours;
+        }
+        <tr>
+            <td><b>Total</b></td>
+            <td></td>
+            <td>$@total</td>
+        </tr>
+    </table>
+    </div>
+    <div class="text-lg-end">
+        You can now <a asp-action="CreateOrder" asp-controller="Paiment">confirm</a> your order
+        or <a asp-action="Index" asp-controller="Home">check some other attractions</a> for this beautiful night
+    </div>
+</div>

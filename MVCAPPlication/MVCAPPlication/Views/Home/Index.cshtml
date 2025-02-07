@@ -1,0 +1,28 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+
+<div class="row-cols-2">
+    <h1>Description</h1>
+    <div class="col">
+        This application serves only to demonstrate the concepts of authentication and authorization in asp.net
+        It uses custom cookie authentication, and role-based authorisation, using entity framework with sql server
+        to store users' data.
+        In this, users have only two possible roles which are admin and user (an ordinary one):
+        <ul>
+            <li>Admin can delete and edit information of any user, another admin included</li>
+            <li>User can edit and delete only his own account information</li>
+            <li>Only admin can manage roles in application, you can't declare it during registration</li>
+        </ul>
+        After signing in (or up) you'll be redirected to a list of users view, from which you can
+        make any manipulations, possible due to your role.
+        To sign in / up see a navigation bar on the top. If you have already done this, you'll see there
+        links to sign out and to users list respectivly.
+        Admin account is "poliakov.serega@gmail.com" with password "SampleP@@ssword123"
+        Also you can write on this email if you'll have any suggestions for me. <br/>
+        Have a good day !
+    </div>
+    <div class="col"></div>
+</div>
+

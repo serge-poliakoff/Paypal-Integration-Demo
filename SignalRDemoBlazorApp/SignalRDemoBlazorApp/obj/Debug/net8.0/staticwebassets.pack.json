@@ -1,0 +1,41 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\polia\\source\\repos\\SignalRDemoBlazorApp\\SignalRDemoBlazorApp\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\SignalRDemoBlazorApp.bundle.scp.css",
+      "PackagePath": "staticwebassets\\SignalRDemoBlazorApp.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\polia\\source\\repos\\SignalRDemoBlazorApp\\SignalRDemoBlazorApp\\wwwroot\\app.css",
+      "PackagePath": "staticwebassets\\app.css"
+    },
+    {
+      "Id": "C:\\Users\\polia\\source\\repos\\SignalRDemoBlazorApp\\SignalRDemoBlazorApp\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\polia\\source\\repos\\SignalRDemoBlazorApp\\SignalRDemoBlazorApp\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\polia\\source\\repos\\SignalRDemoBlazorApp\\SignalRDemoBlazorApp\\wwwroot\\favicon.png",
+      "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.SignalRDemoBlazorApp.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.SignalRDemoBlazorApp.props",
+      "PackagePath": "build\\SignalRDemoBlazorApp.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.SignalRDemoBlazorApp.props",
+      "PackagePath": "buildMultiTargeting\\SignalRDemoBlazorApp.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.SignalRDemoBlazorApp.props",
+      "PackagePath": "buildTransitive\\SignalRDemoBlazorApp.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

@@ -1,0 +1,26 @@
+﻿@model SignUpViewModel
+
+<h3 class = "text-center"> We won't send any add mails (at least 'till we know how to do) </h3>
+
+<form asp-controller="Login" asp-action="SignUp" method="post">
+    <div class="mb-3">
+        <label asp-for="Name" class="form-label"></label>
+        <input asp-for="Name" class="form-control">
+        <span asp-validation-for="Name" class="text-danger"></span>
+    </div>
+    <div class="mb-3">
+        <label asp-for="Email" class="form-label"></label>
+        <input asp-for="Email" class="form-control">
+        <span asp-validation-for="Email" class="text-danger"></span>
+    </div>
+    <div class="mb-3">
+        <label asp-for="Password" class="form-label"></label>
+        <input asp-for="Password" class="form-control">
+        <span asp-validation-for="Password" class="text-danger"></span>
+    </div>
+    <div class="mb-3">
+        <input asp-for="RememberMe" class="form-check-inline" type="checkbox" />
+        <label asp-for="RememberMe" class="form-label">Remember me</label>
+    </div>
+    <button type="submit" class="btn btn-primary">Login</button>
+</form>

@@ -1,0 +1,26 @@
+﻿@model PayPal.Api.Payment
+
+<h1>Your payment is successfully gone ! Congradulations!</h1>
+<h3>Here you can see some sale description:</h3>
+<div class = "flex-column" style= "background: #afafaf">
+	<table class="table-bordered">
+		<tr>
+			<td>Payer</td>
+			<td>
+				@Html.DisplayFor(s => s.payer.payer_info.first_name) @Html.DisplayFor(s => s.payer.payer_info.first_name)
+				@Html.DisplayFor(s => s.payer.payer_info.phone)</td>
+		</tr>
+		<tr>
+			<td>Total amount</td>
+			<td>@Html.DisplayFor(s => s.transactions[0].amount.total) @Html.DisplayFor(s => s.transactions[0].amount.currency) </td>
+		</tr>
+		<tr>
+			<td>Payment mode</td>
+			<td>@Html.DisplayFor(s => s.payer.payment_method)</td>
+		</tr>
+		<tr>
+			<td>Created: </td>
+			<td>@Html.DisplayFor(s => s.create_time)</td>
+		</tr>
+	</table>
+</div>

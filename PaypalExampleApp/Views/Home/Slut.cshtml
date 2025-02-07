@@ -1,0 +1,81 @@
+﻿@model PuteModel
+@{
+	ViewData["Title"] = Model.Name;
+}
+
+<div class="container">
+	<div class="row">
+		<div class="col-md-2 text-center">
+			@{
+				string imgPath = Model.Name + ".jpg";
+			}
+			<img class="img-fluid" src="~/content/@imgPath" />
+			<h4>@Model.Name</h4>
+		</div>
+		<div class="col-xl">
+			<h1>Description</h1>
+			@Model.Description
+			<br/>
+			Only for $@Model.PriceHour/hour
+		</div>
+	</div>
+	<div class="flex-xxl-row" id="order_form">
+		Commande for <input id="order_hours" type="number" /> hours <button onclick="add_to_order()">Add to order</button>
+	</div>
+	<div class="flex-xxl-row" id="ordered_form" hidden>
+		Added to cart ! You can see your order <a asp-controller="Order" asp-action="Index">here</a>
+		or return to <a asp-controller="Home" asp-action="Index">home page</a> and check some
+		other attractions for this night
+	</div>
+	<div class="flex-xxl-row" id="order_error" hidden>
+		Something went wrong... Try again later.
+	</div>
+</div>
+
+<script>
+	var slut = @Html.Raw(Json.Serialize(Model));
+
+	fetch("@Url.Action("check","Order")",{ method: "GET" })
+		.then(res => res.json().then(cart => {
+			for(let i = 0; i < cart.length; i++){
+				if (cart[i].Id == slut["id"]){
+					document.getElementById("order_form").hidden = true;
+					ordered_form = document.querySelector("#ordered_form");
+					ordered_form.hidden = false;
+					break;
+				}
+			}
+		}));
+
+
+	function add_to_order(){
+		var hours = document.querySelector("#order_hours").value;
+		console.log(hours);
+		console.log(Math.floor(hours));
+		fetch("@Url.Action("AddToOrder","Order")", {
+			method: "POST",
+			headers: {
+				"Content-Type": "application/json"
+			},
+			body: JSON.stringify({
+				Id: slut["id"],
+				Name: slut["name"],
+				Description: slut["description"],
+				PriceHour: slut["priceHour"],
+				Hours: hours
+			})
+		}).then( (res) => {
+			document.getElementById("order_form").hidden = true;
+			if (res.ok){
+				document.getElementById("ordered_form").hidden = false;
+			}else{
+				document.getElementById("order_error").hidden = false;
+			}
+		}).catch((err) =>
+		{
+			document.getElementById("order_form").hidden = true;
+			document.getElementById("order_error").hidden = false;
+			alert(err);
+		});
+	}
+</script>

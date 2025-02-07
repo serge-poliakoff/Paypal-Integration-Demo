@@ -1,0 +1,156 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\polia\\source\\repos\\SignalRDemoBlazorApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{CF40C873-5EC2-4452-BC18-C850F15662B3}|SignalRDemoBlazorApp.Client\\SignalRDemoBlazorApp.Client.csproj|c:\\users\\polia\\source\\repos\\signalrdemoblazorapp\\signalrdemoblazorapp.client\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CF40C873-5EC2-4452-BC18-C850F15662B3}|SignalRDemoBlazorApp.Client\\SignalRDemoBlazorApp.Client.csproj|solutionrelative:signalrdemoblazorapp.client\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF40C873-5EC2-4452-BC18-C850F15662B3}|SignalRDemoBlazorApp.Client\\SignalRDemoBlazorApp.Client.csproj|c:\\users\\polia\\source\\repos\\signalrdemoblazorapp\\signalrdemoblazorapp.client\\pages\\purpose.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CF40C873-5EC2-4452-BC18-C850F15662B3}|SignalRDemoBlazorApp.Client\\SignalRDemoBlazorApp.Client.csproj|solutionrelative:signalrdemoblazorapp.client\\pages\\purpose.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D0F48D9-2ED6-4AA5-AFA5-C8BCC3951510}|SignalRDemoBlazorApp\\SignalRDemoBlazorApp.csproj|c:\\users\\polia\\source\\repos\\signalrdemoblazorapp\\signalrdemoblazorapp\\hubs\\mainhub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D0F48D9-2ED6-4AA5-AFA5-C8BCC3951510}|SignalRDemoBlazorApp\\SignalRDemoBlazorApp.csproj|solutionrelative:signalrdemoblazorapp\\hubs\\mainhub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D0F48D9-2ED6-4AA5-AFA5-C8BCC3951510}|SignalRDemoBlazorApp\\SignalRDemoBlazorApp.csproj|c:\\users\\polia\\source\\repos\\signalrdemoblazorapp\\signalrdemoblazorapp\\components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2D0F48D9-2ED6-4AA5-AFA5-C8BCC3951510}|SignalRDemoBlazorApp\\SignalRDemoBlazorApp.csproj|solutionrelative:signalrdemoblazorapp\\components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D0F48D9-2ED6-4AA5-AFA5-C8BCC3951510}|SignalRDemoBlazorApp\\SignalRDemoBlazorApp.csproj|c:\\users\\polia\\source\\repos\\signalrdemoblazorapp\\signalrdemoblazorapp\\components\\routes.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2D0F48D9-2ED6-4AA5-AFA5-C8BCC3951510}|SignalRDemoBlazorApp\\SignalRDemoBlazorApp.csproj|solutionrelative:signalrdemoblazorapp\\components\\routes.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D0F48D9-2ED6-4AA5-AFA5-C8BCC3951510}|SignalRDemoBlazorApp\\SignalRDemoBlazorApp.csproj|c:\\users\\polia\\source\\repos\\signalrdemoblazorapp\\signalrdemoblazorapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{2D0F48D9-2ED6-4AA5-AFA5-C8BCC3951510}|SignalRDemoBlazorApp\\SignalRDemoBlazorApp.csproj|solutionrelative:signalrdemoblazorapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D0F48D9-2ED6-4AA5-AFA5-C8BCC3951510}|SignalRDemoBlazorApp\\SignalRDemoBlazorApp.csproj|c:\\users\\polia\\source\\repos\\signalrdemoblazorapp\\signalrdemoblazorapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D0F48D9-2ED6-4AA5-AFA5-C8BCC3951510}|SignalRDemoBlazorApp\\SignalRDemoBlazorApp.csproj|solutionrelative:signalrdemoblazorapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D0F48D9-2ED6-4AA5-AFA5-C8BCC3951510}|SignalRDemoBlazorApp\\SignalRDemoBlazorApp.csproj|c:\\users\\polia\\source\\repos\\signalrdemoblazorapp\\signalrdemoblazorapp\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2D0F48D9-2ED6-4AA5-AFA5-C8BCC3951510}|SignalRDemoBlazorApp\\SignalRDemoBlazorApp.csproj|solutionrelative:signalrdemoblazorapp\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\polia\\source\\repos\\SignalRDemoBlazorApp\\SignalRDemoBlazorApp.Client\\Program.cs",
+              "RelativeDocumentMoniker": "SignalRDemoBlazorApp.Client\\Program.cs",
+              "ToolTip": "C:\\Users\\polia\\source\\repos\\SignalRDemoBlazorApp\\SignalRDemoBlazorApp.Client\\Program.cs",
+              "RelativeToolTip": "SignalRDemoBlazorApp.Client\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T19:54:04.337Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\polia\\source\\repos\\SignalRDemoBlazorApp\\SignalRDemoBlazorApp\\appsettings.json",
+              "RelativeDocumentMoniker": "SignalRDemoBlazorApp\\appsettings.json",
+              "ToolTip": "C:\\Users\\polia\\source\\repos\\SignalRDemoBlazorApp\\SignalRDemoBlazorApp\\appsettings.json",
+              "RelativeToolTip": "SignalRDemoBlazorApp\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-12-04T19:20:55.637Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Routes.razor",
+              "DocumentMoniker": "C:\\Users\\polia\\source\\repos\\SignalRDemoBlazorApp\\SignalRDemoBlazorApp\\Components\\Routes.razor",
+              "RelativeDocumentMoniker": "SignalRDemoBlazorApp\\Components\\Routes.razor",
+              "ToolTip": "C:\\Users\\polia\\source\\repos\\SignalRDemoBlazorApp\\SignalRDemoBlazorApp\\Components\\Routes.razor",
+              "RelativeToolTip": "SignalRDemoBlazorApp\\Components\\Routes.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-04T18:49:25.004Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Purpose.razor",
+              "DocumentMoniker": "C:\\Users\\polia\\source\\repos\\SignalRDemoBlazorApp\\SignalRDemoBlazorApp.Client\\Pages\\Purpose.razor",
+              "RelativeDocumentMoniker": "SignalRDemoBlazorApp.Client\\Pages\\Purpose.razor",
+              "ToolTip": "C:\\Users\\polia\\source\\repos\\SignalRDemoBlazorApp\\SignalRDemoBlazorApp.Client\\Pages\\Purpose.razor",
+              "RelativeToolTip": "SignalRDemoBlazorApp.Client\\Pages\\Purpose.razor",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAAC0AAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-04T18:47:24.683Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "NavMenu.razor",
+              "DocumentMoniker": "C:\\Users\\polia\\source\\repos\\SignalRDemoBlazorApp\\SignalRDemoBlazorApp\\Components\\Layout\\NavMenu.razor",
+              "RelativeDocumentMoniker": "SignalRDemoBlazorApp\\Components\\Layout\\NavMenu.razor",
+              "ToolTip": "C:\\Users\\polia\\source\\repos\\SignalRDemoBlazorApp\\SignalRDemoBlazorApp\\Components\\Layout\\NavMenu.razor",
+              "RelativeToolTip": "SignalRDemoBlazorApp\\Components\\Layout\\NavMenu.razor",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAmwB0AAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-04T18:27:02.779Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Home.razor",
+              "DocumentMoniker": "C:\\Users\\polia\\source\\repos\\SignalRDemoBlazorApp\\SignalRDemoBlazorApp\\Components\\Pages\\Home.razor",
+              "RelativeDocumentMoniker": "SignalRDemoBlazorApp\\Components\\Pages\\Home.razor",
+              "ToolTip": "C:\\Users\\polia\\source\\repos\\SignalRDemoBlazorApp\\SignalRDemoBlazorApp\\Components\\Pages\\Home.razor",
+              "RelativeToolTip": "SignalRDemoBlazorApp\\Components\\Pages\\Home.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-04T18:22:37.403Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainHub.cs",
+              "DocumentMoniker": "C:\\Users\\polia\\source\\repos\\SignalRDemoBlazorApp\\SignalRDemoBlazorApp\\Hubs\\MainHub.cs",
+              "RelativeDocumentMoniker": "SignalRDemoBlazorApp\\Hubs\\MainHub.cs",
+              "ToolTip": "C:\\Users\\polia\\source\\repos\\SignalRDemoBlazorApp\\SignalRDemoBlazorApp\\Hubs\\MainHub.cs",
+              "RelativeToolTip": "SignalRDemoBlazorApp\\Hubs\\MainHub.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T18:15:25.622Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\polia\\source\\repos\\SignalRDemoBlazorApp\\SignalRDemoBlazorApp\\Program.cs",
+              "RelativeDocumentMoniker": "SignalRDemoBlazorApp\\Program.cs",
+              "ToolTip": "C:\\Users\\polia\\source\\repos\\SignalRDemoBlazorApp\\SignalRDemoBlazorApp\\Program.cs",
+              "RelativeToolTip": "SignalRDemoBlazorApp\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T18:14:32.535Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
