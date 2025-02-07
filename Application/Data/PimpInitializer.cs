@@ -1,13 +1,12 @@
-﻿using PaypalExampleApp.DbContexts;
+﻿using Microsoft.EntityFrameworkCore;
+using PaypalExampleApp.DbContexts;
 using PaypalExampleApp.Models;
 
 namespace PaypalExampleApp.Data;
 
 public static class PimpDataInitializer
 {
-    public static WebApplication SeedData(this WebApplication app)
-    {
-        List<PuteModel> content = new List<PuteModel>()
+    private static List<PuteModel> content = new List<PuteModel>()
         {
             new PuteModel()
             {
@@ -31,6 +30,8 @@ public static class PimpDataInitializer
                     " and soft pale skin. Spend one of your most beautiful nights with a former Poseidon lover"
             }
         };
+    public static WebApplication SeedData(this WebApplication app)
+    {
         using (var scope = app.Services.CreateScope())
         {
             using (var db = scope.ServiceProvider.GetRequiredService<PimpDbContext>())
