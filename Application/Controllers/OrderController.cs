@@ -29,6 +29,10 @@ public class OrderController : Controller
         {
             return; //already added, must be something bad here, redirect back
         }
+        if (item.Hours <= 0)
+        {
+            throw new Exception("Incorrect command");
+        }
         order.Add(item);
         jsonOrd = JsonConvert.SerializeObject(order);
         http_acc.HttpContext.Session.SetString("Order", jsonOrd);
