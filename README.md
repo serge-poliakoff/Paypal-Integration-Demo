@@ -6,4 +6,5 @@ Stack used:
   -paypal api
 Of course a bit of frontend on classical js with fetch api, and thats pretty all.
 (Grabbing clientId and secret from appsettings won't give you anything, 'cause thats a sandbox account)
+If you want an acoount to teest this, here you are: sb-mjttn37202268@personal.example.com | L!=c1vqw
 Have a nice day
